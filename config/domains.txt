@@ -1,0 +1,9 @@
+# Add your domains here. Each new line provisions a new certificate file
+# If you add the domains in a single line, 
+# then they will all appear on a single certificate.
+# The first domain in a single line will be in the CN (Common Name) field
+# Other domains in a single line will be in SAN field (Subject Alternative Name)
+# Using SANs for all needed domains you can create a single cert that
+# works for multiple domains, essentialy having something similar to a wildcard cert.
+
+# example.com

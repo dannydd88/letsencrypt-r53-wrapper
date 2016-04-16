@@ -1,0 +1,5 @@
+.bundle
+vendor/
+config/certs
+config/private_key.pem
+config/private_key.json
