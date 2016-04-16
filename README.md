@@ -2,7 +2,7 @@
 
 Letsencrypt-r53-wrapper is a wrapper around [letsencrypt.sh](https://github.com/lukas2511/letsencrypt.sh). It uses a custom AWS Route53 hook written in Ruby, which is a slightly modified version of [tache's gist](https://gist.github.com/tache/3b6760784c098c9139c6) (forked from [asimihsan's gist](https://gist.github.com/asimihsan/d8d8f0f10bdc85fc6f8a)). By bringing these two solutions together you can generate Let's Encrypt certificates using the easier DNS method. Main benefit it gives you is the ability to generate the certs from a central point, like your Mac or a build server.
 
-A more general overview of the solved problem can be found in a [blog post on Medium](http://).
+A more general overview of the solved problem can be found in a [blog post on Medium](https://medium.com/@paul.chmielinski/a-superior-way-to-use-let-s-encrypt-fee6bd1b7b11#.9p7ix9qre).
 
 ## Demo
 
