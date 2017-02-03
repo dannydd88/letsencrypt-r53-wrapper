@@ -19,6 +19,4 @@ else
   export AWS_REGION="eu-west1" 
 fi
 
-git submodule update --init --recursive
-bundle install --deployment
-bundle exec ./letsencrypt.sh/letsencrypt.sh --cron --config "$CONFIG"
+bundle exec ./letsencrypt.sh/dehydrated.sh --accept-terms --cron --config "$CONFIG"
