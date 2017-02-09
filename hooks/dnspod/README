@@ -1,0 +1,3 @@
+pip install -r hooks/dnspod/requirements.txt
+
+pip install -r hooks/dnspod/requirements-python-2.txt
