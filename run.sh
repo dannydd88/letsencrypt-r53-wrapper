@@ -13,4 +13,5 @@ else
   export AWS_REGION="eu-west1" 
 fi
 
-bundle exec ./letsencrypt.sh/dehydrated --accept-terms --cron --config "$CONFIG"
+#bundle exec ./letsencrypt.sh/dehydrated --accept-terms --cron --config "$CONFIG"
+./letsencrypt.sh/dehydrated --accept-terms --cron --config "$CONFIG"
