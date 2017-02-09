@@ -1,1 +1,2 @@
 bundle install --deployment
+gem install bundler
