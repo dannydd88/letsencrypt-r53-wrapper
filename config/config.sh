@@ -66,7 +66,7 @@ BASEDIR=$SCRIPTDIR/../config
 #
 # BASEDIR and WELLKNOWN variables are exported and can be used in an external program
 # default: <unset>
-HOOK=$SCRIPTDIR/../hook.rb
+HOOK=$SCRIPTDIR/../hooks/aws/hook.rb
 
 # Chain clean_challenge|deploy_challenge arguments together into one hook call per certificate (default: no)
 #HOOK_CHAIN="no"
@@ -91,3 +91,6 @@ HOOK=$SCRIPTDIR/../hook.rb
 
 # Option to add CSR-flag indicating OCSP stapling to be mandatory (default: no)
 #OCSP_MUST_STAPLE="no"
+
+# Config for DNSPod hook
+#DNSPOD_API_TOKEN='YOUR-DNSPOD-LOGIN-TOKEN'
