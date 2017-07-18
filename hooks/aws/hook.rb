@@ -35,9 +35,19 @@ def setup_dns(domain, fqdn, txt_challenge)
     },
   })
 
-  ap resp
+  while true do
+    resp = route53.get_change({
+      id: resp.change_info.id,
+    })
 
-  sleep 20
+    ap resp
+
+    if resp.change_info.status == "INSYNC"
+      break
+    end
+
+    sleep 20
+  end
 end
 
 # ------------------------------------------------------------------------------
